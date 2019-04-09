@@ -1,0 +1,19 @@
+{
+    "name": "manoa/quete_composer",
+    "description": "projet quete composer",
+    "authors": [
+        {
+            "name": "manoa BRUGGER",
+            "email": "manoa9438@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2",
+        "ehime/hello-world": "^1.0"
+    }
+}
